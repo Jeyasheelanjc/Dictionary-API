@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    /* border: 2px solid red; */
+}
+
+input {
+    width: 100%;
+    height: 50px !important;
+    border-radius: 30px 0 0px 30px;
+    border: none;
+    padding: 0 30px;
+}
+
+.search {
+    width: 100px;
+    border-radius: 0 30px 30px 0 !important;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: #fff;
+
+}
+
+header {
+    background-color:
+        #0f3850;
+}
+.music{
+    padding: 7px 10px;
+    border-radius: 50px;
+    background-color: red;
+    color: #fff;
+    border: 1px solid white;
+}
+.para{
+    color: #0f3850 !important;
+}
+.pred{
+    color: red;
+    font-size: 28px;
+}
+#nounname,#verbname{
+    color: red;
+    font-size: 20px;
+    text-decoration:underline;
+}
+.indiv{
+    color: #0f3850;
+    font-size: 30px;
+}
+#verbeg,#nouneg{
+    font-style: italic;
+    font-size: 17px;
+}
+.mainContainer{
+    display: none;
+}
+.mainContainer.success{
+    display: block;
+}
+small{
+    color: white;
+}
+.small{
+    display: none;
+}
+.small.error{
+    display: block;
+    text-align: center;
+}
